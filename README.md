@@ -7,7 +7,6 @@ This utility is designed so that the system allocates RAM with each loop iterati
 
 ## ⚙️ Functioning
 
-Le programme alloue de la mémoire de manière continue par blocs spécifiques à intervalles réguliers :
 1. **Continuing allocation** : Uses `malloc` to reserve memory (`uint32_t`).
 2. **Sleep** :It pauses between each allocation to take it easy, but the Sleep function can be removed.
 3. **Running in the background** : The process detaches itself from the user interface to run invisibly.
