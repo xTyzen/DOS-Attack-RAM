@@ -22,7 +22,7 @@ To compile the program without displaying a console during its execution :
 #### With GCC (MinGW) :
 Use the `-mwindows` option to prevent the command prompt from opening :
 
-`g++ -O2 main.cpp -o RAMStressTest.exe -mwindows`
+`g++ -O2 <filename>.cpp -o <filename>.exe -mwindows`
 
 ### 2. On Linux
 
